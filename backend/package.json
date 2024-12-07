@@ -1,0 +1,48 @@
+{
+  "name": "backend_wiki_hollow_knight",
+  "version": "1.0.0",
+  "description": "Wiki developed with DOcker, node js and mongodb",
+  "author": {
+    "name": "Óscar Hernández",
+    "url": "https://calamoazul.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "envcmd mocha",
+    "format": "prettier --write {**/,}*.js",
+    "lint": "prettier --check {**/,}*.js"
+  },
+  "keywords": [
+    "Docker",
+    "Hollow Knight",
+    "Node",
+    "MongoDB"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@types/next": "^9.0.0",
+    "@types/typescript": "^2.0.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "1.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "superagent": "^10.1.1",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.9",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "chai": "^5.1.2",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.4",
+    "mocha": "^11.0.1",
+    "superagent": "^10.1.1",
+    "typescript": "^5"
+  }
+}
